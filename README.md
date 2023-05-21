@@ -1,7 +1,7 @@
 ## MSDS 498-DL Capstone Project
 ### Advanced Driver Assistance System using Intelligent Video Analytics on the Edge
 
-![Project image](https://github.com/anrobr/MSDS_498-DL-Capstone_Project/blob/main/header_image.png?raw=true)
+![Project image](https://github.com/anrobr/MSDS_498-DL-Capstone_Project/blob/master/header_image.png?raw=true)
 
 ---
 ### Project Goal
