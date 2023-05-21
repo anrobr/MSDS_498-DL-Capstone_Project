@@ -9,11 +9,11 @@ This project aims to reduce the number and severity of traffic accidents caused 
 
 ---
 ### Approach
-we aim to provide an Advanced Driver Assistance System (ADAS) based on Intelligent Video Analytics (IVA) which can be deployed as a self-sufficient, affordable, and model-agnostic unit (edge system) in motor vehicles such as cars, vans, and mini trucks. The system is design for a deployment using Raspberry Pi 4 and the Intel Neural Compute Stick 2 (NCS2). Model inference is done by the NCS2. To be useful for the described purpose the throughput of the system has to achieve or exceed 30 FPS.
+We aim to provide an Advanced Driver Assistance System (ADAS) based on Intelligent Video Analytics (IVA) which can be deployed as a self-sufficient, affordable, and model-agnostic unit (edge system) in motor vehicles such as cars, vans, and mini trucks. The system is design for a deployment using Raspberry Pi 4 and the Intel Neural Compute Stick 2 (NCS2). Model inference is done by the NCS2. To be useful for the described purpose the throughput of the system is >= 30 FPS.
 
 ---
 ### Tags
-[Computer vision, object detection, object tracking, deep-learning, real-time, edge AI, OpenVINO, Intel Neural Compute Stick 2, NCS2.]
+[Computer vision, object detection, object tracking, deep-learning, real-time, edge AI, OpenVINO, OpenVINO Model Zoo, Intel Neural Compute Stick 2, NCS2.]
 
 ---
 ### Repository Contents
@@ -33,4 +33,4 @@ we aim to provide an Advanced Driver Assistance System (ADAS) based on Intellige
     * models (_folder used for storing and converting models_)
     * **models_setup.ipynb** (_Jupyter notebook to download pretrained models from Open Model Zoo or convert custom ones to OpenVINO Intermediate Representation (IR)_)
   * output (_folder containing video recordings with the annotated estimated gaze of a driver_) 
-        * NCS2_MYRIAD (_folder containing annotated recordings to demonstrate the ADAS in action using recorded video data of a driver_)
+    * NCS2_MYRIAD (_folder containing annotated recordings to demonstrate the ADAS in action using recorded video data of a driver_)
