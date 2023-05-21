@@ -32,5 +32,5 @@ We aim to provide an Advanced Driver Assistance System (ADAS) based on Intellige
     * **main.py** (_entry point of the ADAS_)
     * models (_folder used for storing and converting models_)
     * **models_setup.ipynb** (_Jupyter notebook to download pretrained models from Open Model Zoo or convert custom ones to OpenVINO Intermediate Representation (IR)_)
-  * output (_folder containing video recordings with the annotated estimated gaze of a driver_) 
-    * NCS2_MYRIAD (_folder containing annotated recordings to demonstrate the ADAS in action using recorded video data of a driver_)
+    * output (_folder containing video recordings with the annotated estimated gaze of a driver_) 
+      * NCS2_MYRIAD (_folder containing annotated recordings to demonstrate the ADAS in action using recorded video data of a driver_)
