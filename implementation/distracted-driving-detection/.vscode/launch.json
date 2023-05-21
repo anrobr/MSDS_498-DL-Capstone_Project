@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            // Launch from current working directory "distracted-driving-detection"
+            "program": "main.py",
+            "justMyCode": true,
+            "args": [
+                // Available inference devices: MYRIAD, GPU, CPU
+                "-d","MYRIAD",
+                
+                // Models to plug into the video pipeline
+                "-m_fd","models\\intel\\face-detection-retail-0004\\FP16\\face-detection-retail-0004.xml",
+                "-m_flmd", "models\\intel\\landmarks-regression-retail-0009\\FP16\\landmarks-regression-retail-0009.xml",
+                "-m_ce", "models\\custom\\open-closed-eyes-001\\FP16\\open-closed-eyes-001.xml",
+                "-m_hpe","models\\intel\\head-pose-estimation-adas-0001\\FP16\\head-pose-estimation-adas-0001.xml",
+                "-m_ge","models\\intel\\gaze-estimation-adas-0002\\FP16\\gaze-estimation-adas-0002.xml",
+
+                // Run pipeline on video file / stream
+                "-i","samples\\videos\\recording_1.mp4",
+
+                // Run pipeline on single image
+                // "-i","samples\\images\\recording_01.jpg"]
+                
+                // Write video with annotations to output
+                // "-o","output\\15600_16000.mp4"
+            ]
+        }
+    ]
+}

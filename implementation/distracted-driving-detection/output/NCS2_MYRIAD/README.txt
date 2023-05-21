@@ -1,0 +1,16 @@
+                      # 3450, 3750      [not d. - quick glances down]
+                      # 8300, 8700      [not d. - left turn - 90 degrees]
+                      # 20800, 21500    [not d. - right turn - 90 degrees]
+                      # 17400, 17800    [not d. - illumination change]
+                      # 18360, 18900    [not d. - several gaze deviations with small distraction times]
+
+                      # 8700, 9200      [d. - glance down right]  
+                      # 23920, 24200    [d. - glance down right]
+                      # 19450, 19800    [d. - glance down left]
+                      # 9000, 9340      [d. - short glance slightly above acceptable time]
+                      # 10200, 10600    [d. - prolonged distraction and quick warning reset when facing forward again]
+
+                      # 12360, 12900    [d. - closed eyes, long, short, below min time]
+                      # 15300, 15600    [d. - closed eyes]
+                      # 14800, 15650    [d. - closed eyes, but while driving curve]
+                      # 15600, 16000    [d. - closed eyes and distracted]
