@@ -20,7 +20,7 @@ We aim to provide an Advanced Driver Assistance System (ADAS) based on Intellige
 
 * documentation
   * Paper.pdf
-  * Presentation.pptx
+  * Presentation.pdf
 
 * implementation
   * proof-of-concept (_folder containing files to evaluate required neural networks and their dependencies_)
