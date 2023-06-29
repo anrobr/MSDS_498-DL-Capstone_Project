@@ -3,13 +3,22 @@
 
 ![Project image](https://github.com/anrobr/MSDS_498-DL-Capstone_Project/blob/master/header_image.png?raw=true)
 
+--- 
+### Background
+According to the WHO 
+* around 1.3 mio people die and
+* around 50 mio people are injured
+every year from traffic accidents.
+
+Around **93%** of the world's fatalities are happening in **low- and middle-income countries**.
+
 ---
 ### Project Goal
 This project aims to reduce the number and severity of traffic accidents caused by distracted driving, one of the main causes of traffic accidents, and to contribute to the WHO’s ambitious goal to cut traffic accidents in half by 2030 as filed via resolution A/RES/74/299.
 
 ---
 ### Approach
-We aim to provide an Advanced Driver Assistance System (ADAS) based on Intelligent Video Analytics (IVA) which can be deployed as a self-sufficient, affordable, and model-agnostic unit (edge system) in motor vehicles such as cars, vans, and mini trucks. The system is design for a deployment using Raspberry Pi 4 and the Intel Neural Compute Stick 2 (NCS2). Model inference is done by the NCS2. To be useful for the described purpose the throughput of the system is >= 30 FPS.
+We aim to provide an Advanced Driver Assistance System (ADAS) based on Intelligent Video Analytics (IVA) that can be deployed as a self-sufficient, **affordable**, and model-agnostic unit (edge system) in motor vehicles such as cars, vans, and mini trucks. The system is designed for deployment using Raspberry Pi 4 and the Intel Neural Compute Stick 2 (NCS2). The model inference is done by the NCS2. To be useful for the described purpose the throughput of the system is >= 30 FPS. According to our estimates, the system should be affordable enough for customers in low- and middle-income countries.
 
 ---
 ### Tags
